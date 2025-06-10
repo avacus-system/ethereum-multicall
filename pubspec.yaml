@@ -8,7 +8,9 @@ environment:
   sdk: ^3.3.0
 
 dependencies:
-  web3dart: ^2.3.3
+  web3dart_avacus:
+    git:
+      url: https://github.com/avacus-system/web3dart-avacus.git
   collection: ^1.15.0
   http: ^0.13.6
 
